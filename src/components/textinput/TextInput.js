@@ -5,14 +5,10 @@ import { connect } from 'react-redux';
 import Tooltop from '../Tooltop/Tooltip'
 
 function TextInput(props) {
-  console.log('text',props.handleChange)
   return (
     <div className="input-group mb-3">
         <div className="input-group-prepend">
-            <span className="input-group-text" id="inputGroup-sizing-default">
-                <Tooltop  data={props} />
-                
-            </span>
+           <Tooltop  data={props} />
         </div>
         <input type="text" className="form-control" aria-describedby="inputGroup-sizing-default"
             required={props.required?"required":false}
@@ -29,7 +25,7 @@ function TextInput(props) {
 }
 
 const mapStateToProps = (state) => ({
-	items: state.items
+	inputs: state.inputs
   })
   
 export default connect(mapStateToProps)( TextInput)

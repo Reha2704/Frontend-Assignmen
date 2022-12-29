@@ -2,16 +2,15 @@ import React from 'react'
 import { Row,Col } from 'react-bootstrap'
 import Tooltop from '../Tooltop/Tooltip'
 function Select(props) {
-    console.log('select',props)
   return (
     <div>
         <Row>
             <Col>
-                Select <Tooltop  data={props.data} />
+                 <Tooltop  data={props.data} />
             </Col>
             <Col>
             <select className="form-select" aria-label="Default select example"
-                name={props.data.label}
+                name={props.label}
                 onChange={props.handleChange} 
             >
                 {props.data.validate.options.map((option)=>{

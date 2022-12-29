@@ -8,15 +8,16 @@ const persistConfig = {
 }
 
 const initialState = {
-    items: []
+    inputs: {}
 }
 
 const reducer = (state = initialState, action) => {
     switch (action.type) {
         case 'add':
-            return { ...state, items: [...action.value]}
+            //return items.push(action.value)
+            return { ...state, inputs: {...action.value}}
         case 'remove':
-            return {...state, items: action.value}
+            return {...state, inputs: action.value}
         default:
             return state
     }
