@@ -16,10 +16,13 @@ function Form(data) {
   const handleSubmit=()=>{
       alert(data.inputs)
   }
+ 
   
   return (
-    <Card>
-        <h2 className="Maintitle">Form</h2>
+    
+      
+      <Card>
+      <h2 className="Maintitle">Form</h2>
         {info?.map((texttype)=>{
             return(
               <Card>
@@ -27,9 +30,12 @@ function Form(data) {
               </Card>
             )
         })}
-        {/* <Button variant="info" onClick={handleSubmit}>Info</Button> */}
         <Modaal data={data} />
+        
     </Card>
+    
+    
+   
   )
 }
 const mapStateToProps = (state) => ({
