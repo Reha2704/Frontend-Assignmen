@@ -7,7 +7,7 @@
 
 <a name="struc"></a>
 # Work flow
-![workflow](./src/assets/workflow.png "a title")
+![workflow](./src/assets/workflow.png)
 
 <a name="Tech"></a>
 # Technologies Used
