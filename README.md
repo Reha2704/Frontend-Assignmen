@@ -2,7 +2,7 @@
 # Table of Contents
 - [Work flow](#struc)
 - [Technologies used](#Tech)
-- [Deploy Link: https://63add73153ceb40f09a39eee--tubular-sunburst-6536d7.netlify.app/](#ER)
+- [Deploy Link: ](https://63add73153ceb40f09a39eee--tubular-sunburst-6536d7.netlify.app/)
 - [Demo Video](#run)
 
 <a name="struc"></a>
